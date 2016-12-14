@@ -1,23 +1,121 @@
----
-layout: default
----
+<html lang="en">
 
-<div class="home">
+<head>
+  <title>WM Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Boogaloo|Cantarell|Coming+Soon|Kalam|Kaushan+Script|Lobster|Permanent+Marker|Rock+Salt|Shadows+Into+Light|Shadows+Into+Light+Two|Tillana"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <h1 class="page-heading">Posts</h1>
+  <style>
+   .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+  </style>
+</head>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<body>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand">WM.</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#bio">Home</a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+    </div>
+  </nav>
 
-</div>
+  <div class="container-fluid bg-3 text-center" id="main">
+    <div class="container">
+      <div class="jumbotron text-left" id="bio">
+
+        <h1>"Hi I'm Will" <small> Web Developer / IT Veteran</small></h1>
+        <img src="http://res.cloudinary.com/dooablvnt/image/upload/v1480663723/20160928_143105_apjmxu.jpg" class="img-rounded" alt="me" width="172" height="150" id="me">
+        <p>I'm a lover of all things technology and web development, I'm a budding web developer who enjoys creating beautiful responsive pages utilising HTML5, CSS3 and the popular Bootstrap Framework. I'm inspired by minimilist designs and urban photography. I'm currently completing courses with Codecademy and FCC, you can see some of my course work below.  </p>
+        <p>I also have strong history providing IT support for medium to large businesses in the areas of civil engineering, architecture and construction. If you would like to know more please don't hesitate to contact me. -WM.</p>
+      </div>
+    </div>
+
+    <div class="container" id="gallery">
+      <div class="row">
+        <div class="page-header">
+          <h1><b>Portfolio</b></h1></div>
+        <div class="col-md-6"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_1103/v1480501223/Adoptly_Thumb_gozs4q.png" alt="Adoptly" /></a><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_977,w_1658/v1480242562/Junction_fmatc5.png" alt="Junction" /></a><a href="http://res.cloudinary.com/dooablvnt/image/upload/v1480242631/Move_dieq3m.png"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_977,w_1658/v1480242631/Move_dieq3m.png" alt="Move" /></a><a href="http://res.cloudinary.com/dooablvnt/image/upload/v1480234911/Headlines_hx4zaw.png"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_977,w_1658/v1480234911/Headlines_hx4zaw.png" alt="Headlines"/></a>
+        </div>
+        <div class="col-md-6"><a href="http://res.cloudinary.com/dooablvnt/image/upload/v1480242417/Broadway_cnmq1d.png"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_977,w_1658/v1480242417/Broadway_cnmq1d.png" alt="Broadway"/></a><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_977,w_1658/v1480503947/Shutterbug_Thumb_wl1ka2.png" alt="ShutterBug"/></a><a href="http://res.cloudinary.com/dooablvnt/image/upload/v1480242497/InnovationCloud_glfwl8.png"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_977,w_1658/v1480503684/InnovationCloud_Thumb_vxpsja.png" alt="InnovationCloud"/></a><a href="http://res.cloudinary.com/dooablvnt/image/upload/v1480242354/BestBite_vccdmo.png"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_crop,h_977,w_1658/v1480242354/BestBite_vccdmo.png" alt="BestBite"/></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12" id="backtop">
+          <a href="#bio"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="container-fluid " id="contact">
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-3 text-left">
+        <h3><b>Profiles</b></h3><br>
+        <a href="#" id="linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true" >  </i></a>
+        <a href="https://www.freecodecamp.com/willair"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true">  </i></a>
+        <a href="#"><i class="fa fa-codepen fa-2x" aria-hidden="true">  </i></a>
+        <a href="#"><i class="fa fa-code fa-2x" aria-hidden="true">  </i></a>
+        <a href="#"><i class="fa fa-graduation-cap fa-2x" aria-hidden="true">  </i></a>
+      </div>
+      <div class="col-md-3 text-left">
+        <h3><b>Contact</b></h3><br>
+        <form>
+
+          <div class="input-group" id="name">
+            <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+            <input class="form-control" type="text" placeholder="Name">
+          </div>
+          <div class="input-group" id="email">
+            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+            <input class="form-control" type="text" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="3" cols="5" id="info" placeholder="Details"></textarea>
+          </div>
+          <input class="btn btn-default" type="submit" value="Submit">
+        </form>
+
+      </div>
+      <div class="col-md-3">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-left" id="end">
+        <h6><b>Written and coded by W. Martinez 2016</h6>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
