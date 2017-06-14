@@ -13,6 +13,7 @@
     rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 
 </head>
 
@@ -46,28 +47,49 @@
       <div class="jumbotron text-left" id="bio">
 
         <h1>Will Martinez<small> Web Developer / IT Veteran</small></h1>
-        <img src="http://res.cloudinary.com/dooablvnt/image/upload/v1481810459/20160928_143105_gm1wyx.png" class="img-rounded" alt="me" width="172" height="150" id="me">
-        <p>I'm a lover of all things technology and web development, I'm a budding web developer who enjoys creating beautiful responsive pages using HTML5, CSS3, jQuery and the Bootstrap Framework. I'm inspired by minimilist designs and urban photography. I'm currently completing courses with Codecademy and FCC, you can see some of my course work below.  </p>
-        <p>I also have strong history providing IT support for medium to large businesses in the areas of civil engineering, architecture and construction. If you would like to know more please don't hesitate to contact me. -WM.</p>
+        <img src="http://res.cloudinary.com/dooablvnt/image/upload/v1481810459/20160928_143105_gm1wyx.png" class="img-rounded" alt="me" width="172" height="150" id="me" >
+        <p>
+        	I'm a lover of all things technology and web development, I'm a budding web developer who enjoys creating beautiful responsive pages using HTML5, CSS3, jQuery and the Bootstrap Framework. I'm inspired by minimilist designs and urban 			photography. I'm currently completing courses with Codecademy and FCC, you can see some of my course work below.  
+        </p>
+        <p>
+        	I also have strong history providing IT support for medium to large businesses in the areas of civil engineering, architecture and construction. If you would like to know more please don't hesitate to contact me. -WM.
+        </p>
       </div>
     </div>
 
     <div class="container" id="gallery">
       <div class="row">
         <div class="page-header">
-          <h1><b>Portfolio</b></h1>
+          		<h1><b>Portfolio</b></h1>
         </div>
-        <div class="col-md-6">
+        
+        <div class="container">
+        	<button type="button" class="btn btn-primary" onclick="hidejquerygal()">HTML/CSS</button>
+        	<button type="button" class="btn btn-primary" onclick="hidehtmlcssgal()">JQUERY</button>
+        </div>
+  
+        <div class="col-md-6 htmlcss">
         						<a href="Pages/Codecademy_Adoptly/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481808963/Adoptly_eyirfn.png" alt="Adoptly" /></a> 
         						<a href="Pages/Codecademy_Junction/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810334/Junction_eu2vpu.png" alt="Junction" /></a>
         						<a href="Pages/Codecademy_Move/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810335/Move_p7dcvq.png" alt="Move" /></a>
         						<a href="Pages/Codecademy_Junction/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810333/Headlines_jhjmt8.png" alt="Headlines"/></a>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 htmlcss">
         						<a href="Pages/Codecademy_Broadway/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481809858/Broadway_tnw1sl.png" alt="Broadway"/></a>
         						<a href="Pages/Codecademy_Shutterbugg/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810336/Shutterbug_wrwqgc.png" alt="ShutterBug"/></a>
         						<a href="Pages/Codecademy_InnovationCloud/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810334/InnovationCloud_mpagqi.png" alt="InnovationCloud"/></a>
         						<a href="Pages/Codecademy_BestBite/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481808963/BestBite_xcpsrk.png" alt="BestBite"/></a>
+        </div>
+        
+        <div class="col-md-6 jquery">
+        						<a href="Pages/Codecademy_Armando/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1497419130/Armando_uf36dg.png" alt="Armando" /></a> 
+        						<a href="Pages/Codecademy_Junction/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810334/Junction_eu2vpu.png" alt="Junction" /></a>
+        						<a href="Pages/Codecademy_Move/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810335/Move_p7dcvq.png" alt="Move" /></a>
+        </div>
+        <div class="col-md-6 jquery">
+        						<a href="Pages/Codecademy_Broadway/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481809858/Broadway_tnw1sl.png" alt="Broadway"/></a>
+        						<a href="Pages/Codecademy_Shutterbugg/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810336/Shutterbug_wrwqgc.png" alt="ShutterBug"/></a>
+
         </div>
 
       </div>
