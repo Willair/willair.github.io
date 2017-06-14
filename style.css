@@ -30,12 +30,14 @@ body {
 
 #badges {
 	margin: 25px;
+
  	text-align:left;
 }
 
 #badges button {
 	background-color:#3C352D;
 	border-color:#D2AE8A;
+	margin:2px;
 
 }
 
