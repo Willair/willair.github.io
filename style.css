@@ -3,6 +3,11 @@
   	color: red !important;
 }
 
+.navbar {
+	margin-bottom: 0;
+    border-radius: 0;
+}
+
 #me {
   float: left;
   clear: right;
@@ -24,6 +29,10 @@
 
 small {
   color:#D2AE8A !important;
+}
+
+.page-header {
+	margin-top: 20px;
 }
 
 #main {
@@ -85,7 +94,7 @@ color:#D2AE8A;
   padding:20px 25px 0px 0px;
   margin-bottom:0px;
   font-family: 'Cantarell', cursive; 
-  color: grey; 
+  color: gray; 
 }
 
 #backtop {
