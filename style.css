@@ -11,9 +11,11 @@
 #me {
   float: left;
   clear: right;
-  margin: 10px 30px 16px  ;
+  margin: 10px 20px 16px  ;
   border: 1px solid #D2AE8A;
 }
+
+
 
 .jumbotron {
   opacity:0.9;
@@ -47,6 +49,7 @@ small {
   background-size:  cover;
   background-repeat: no-repeat;
   padding-bottom: 60px; 
+  height: 2000px !important;
   
 }
 
