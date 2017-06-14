@@ -50,8 +50,8 @@ small {
   
 }
 
-.btn {
-	margin-bottom:20px;
+.btn-primary {
+	margin-bottom:20px !important;
 }
 
 #gallery img {
