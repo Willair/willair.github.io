@@ -1,15 +1,9 @@
 @media screen and (min-width: 480px) {
-    body {
-        	background-image:url("http://yeisystems.com/wp-content/uploads/2015/05/urban-city-street-1920x1080.jpg");
-  	background-size:cover;
+    #main {
+    	background-image:url("http://yeisystems.com/wp-content/uploads/2015/05/urban-city-street-1920x1080.jpg");
+  		background-size:cover;
     }
 }
-
-body {
-	background-color:#000000;
-}
-
-
 
 .navbar-brand {
 	font-family: 'Rock Salt', cursive;
@@ -29,7 +23,7 @@ body {
 }
 
 #badges {
-	margin: 25px;
+	margin: 25px 25px 10px;
 
  	text-align:left;
 }
@@ -37,7 +31,7 @@ body {
 #badges button {
 	background-color:#3C352D;
 	border-color:#D2AE8A;
-	margin:5px;
+	margin:3px;
 
 }
 
@@ -69,8 +63,8 @@ small {
 }
 
 #main {
-
-  padding-bottom: 60px; 
+	background-color:#000000;
+  	padding-bottom: 60px; 
   
 }
 
