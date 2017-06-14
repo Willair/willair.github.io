@@ -1,7 +1,6 @@
 body {
-	  background-image:url("http://yeisystems.com/wp-content/uploads/2015/05/urban-city-street-1920x1080.jpg");
+  background-image:url("http://yeisystems.com/wp-content/uploads/2015/05/urban-city-street-1920x1080.jpg");
   background-size:cover;
-  background-repeat: no-repeat;
 }
 
 .navbar-brand {
@@ -17,11 +16,24 @@ body {
 #me {
   float: left;
   clear: right;
-  margin: 10px 20px 16px  ;
+  margin: 10px 20px 16px 10px;
   border: 1px solid #D2AE8A;
 }
 
+#badges {
+	margin: 25px;
+ 	text-align:left;
+}
 
+#badges button {
+	background-color:#3C352D;
+	border-color:#D2AE8A;
+
+}
+
+#badges a {
+	color:#fff !important;
+}
 
 .jumbotron {
   opacity:0.9;
@@ -53,28 +65,15 @@ small {
 #main {
 
   padding-bottom: 60px; 
-0
   
-}
-
-.btn-primary {
-	margin-bottom:20px !important;
 }
 
 #gallery img {
     margin-bottom:30px;
-     border: 2px solid #D2AE8A !important;
+    margin-right:15px;
+     border: 2px solid #000 !important;
 }
 
-#gallery h1 {
-  color:#fff;
-  margin-top:0px;
-  font-family: 'Architects Daughter', cursive; 
-}
-
-.htmlcss {
-	
-}
 
 footer {  
   margin-bottom:0px;
