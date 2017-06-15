@@ -1,0 +1,233 @@
+html, body {
+  margin: 0;
+  padding: 0;
+ }
+ 
+.pindent {
+	padding-left:25px;
+	margin-bottom:0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.header {
+	background-color:#b3daff;
+	height:100px;
+}
+
+.header h1 {
+    font-weight:100;
+	font-size:44px;
+	width:300px;
+	font-family: 'Yesteryear', cursive;
+	color: #ff0000;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-top:20px;
+	display:inline-block;
+}
+
+.header nav {
+	text-align:right;
+	font-size:18px;
+	padding-top: 30px;
+	width:400px;
+	display:inline-block;
+	float:right;
+}
+
+.nav a {
+  text-decoration:none;
+  font-family: 'Yesteryear', cursive;
+  color:	#ff0000;
+  font-size: 28px;
+  padding-right:10px; 
+}
+
+.nav a:hover {
+  color:#ffffff;
+  background-color:transparent !important;
+  cursor:pointer;
+}
+
+.main {
+	text-align:center;
+	font-size:18px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.main span {
+	font-size:26px;
+}
+
+.footer {
+	background-color:#b3daff;
+	height:120px;
+    margin-top:80px;
+    position: fixed;
+   	left:0px;
+   	bottom:0px;
+   	width:100%;
+
+}
+
+.copyright {
+	text-align:right;
+	padding-top:80px;
+	font-size:14px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*--------------Products----------------*/
+
+#products {
+	font-size:16px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#products span {
+	font-size:24px;
+}
+
+.pimage {
+	width:198px;
+ 	height:189px;
+ 	
+}
+
+table {
+	padding-top:10px;
+	padding-bottom:40px;
+	border-spacing: 10px;
+	font-size:16px;
+	margin:0px;
+	padding-right:0px;
+	padding-left:0px;
+}
+
+table h3 {
+	margin:0px;
+	padding-top:10px;
+}
+
+table td {
+	width:25%;
+	border:1px solid black; 
+	box-shadow: 3px 3px 3px #888888;
+	text-align:center;
+}
+
+.desc {
+	padding:10px;
+}
+
+/*---------------Location----------------*/
+
+#location {
+	font-size:16px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+ol {
+	display:inline-block;
+	padding-top:20px;
+	margin-left:30px;
+	margin-top:0px;
+}
+
+#address {
+		font-size:16px;
+}
+ol li {
+	margin:35px;
+}
+
+#aus {
+	padding-top:70px;
+	float:left;
+	height:25%;
+	width:25%;
+}
+
+/*-------------Contact Us-------------*/
+
+#contactus {
+	font-size:16px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#contactus span {
+	font-size:24px;
+}
+
+
+#contactimg img {
+	margin-top:10px;
+	margin-bottom:10px;
+	height:160px;
+	width:740px;
+}
+
+#form {
+	box-shadow: 10px 10px 5px #888888;
+	font-size:16px;
+	border:1px solid #d9d9d9; 
+	border-radius:15px;
+	background-color:#B3DAFF;
+	width:675px;
+	opacity:0.8;
+	padding-right:25px;
+	padding-left:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0px;
+	margin-bottom:150px;
+	
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#FFFFFF; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+#sent {
+	width:700px;
+ 	margin-bottom:15px;
+ 	border: 1px solid green;
+ 	border-radius:10px;
+ 	display:none;
+ 	 	
+}
+
+.alertimg {
+	margin:0px;
+	padding-left:20px;
+	padding-right:20px;
+	height:50px;
+	width:50px;
+	display:inline-block;
+}
+
+.alerttxtstyle {
+	margin-top:22px;
+	vertical-align: top;
+}
+
+#alerttxt {
+	
+}
+
+#error {
+	width:700px;
+ 	margin-bottom:15px;
+ 	color:red;
+ 	border: 1px solid red;
+ 	border-radius:10px;
+ 	display:none;
+}

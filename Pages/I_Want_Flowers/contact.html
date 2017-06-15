@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Will Martinez">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Yesteryear" rel="stylesheet">
+        <title>I Want Flowers!</title>
+        
+        
+<!--Form validation-->
+        <script>	
+        
+    		function validateForm() {
+    			var email = document.forms["contactForm"]["email"].value;
+    			var name = document.forms["contactForm"]["name"].value;
+    		 	var phone = document.forms["contactForm"]["phone"].value;
+
+
+        	    if (name== "") {
+        	    	document.getElementById('sent').style.display="none";	    	
+					document.getElementById('error').style.display="block";
+        			document.getElementById('frmname').style.borderColor = "#ff0000";
+        			return false;
+        			
+    			}
+    			
+    			else if (email== "") {
+    				document.getElementById('sent').style.display="none";
+        			document.getElementById('error').style.display="block";
+        			document.getElementById('alerttxt').innerHTML = "Email field required";
+        			document.getElementById('frmname').style.borderColor ="initial";
+        			document.getElementById('frmemail').style.borderColor = "#ff0000";
+
+        			return false;
+    			}
+    			
+    			else if (phone== "") {
+    				document.getElementById('sent').style.display="none";
+        			document.getElementById('error').style.display="block";
+        			document.getElementById('alerttxt').innerHTML = "Phone field is required";
+        			document.getElementById('frmname').style.borderColor ="initial";
+        			document.getElementById('frmemail').style.borderColor = "initial";
+        			document.getElementById('frmphone').style.borderColor = "#ff0000";
+        			return false;
+    			}
+    			
+    			else {
+    				document.getElementById('error').style.display="none";
+    			    document.getElementById('frmname').style.borderColor ="initial";
+        			document.getElementById('frmemail').style.borderColor = "initial";
+        			document.getElementById('frmphone').style.borderColor = "initial";
+        			document.getElementById('sent').style.display="block";
+    			}
+			}
+    	</script>
+        
+    </head>
+    <body>  	
+       <header class="header">
+       		<div class="container">   	
+       			<div class="nav">
+       				<h1>"I Want Flowers!"</h1>	
+        			<nav>
+        				<a href="index.html">Home</a> 
+  						<a href="products.html">Products</a> 
+  						<a href="location.html">Locations</a>
+  						<a href="contact.html">Contact Us</a>
+        			</nav>
+        		</div>
+        	</div>
+        </header>
+        <div class="container">
+        	<div id="contactus">
+        		<p id="contactimg" style="text-align:center">
+        			<img src="images/contact_for_ez_pic.jpg" alt="contacus">
+        		</p>
+        		<h1>Contact Us</h1>
+        		<p class="pindent">
+        			At I Want Flowers Australia we value continuous feedback and seamless communication with our customers. This is so that we can ensure that we deliver the best quality products coupled with the highest standard of service. 					Whatever your query, we stand by the fact that we will be in contact with you as soon as immediately possible during normal operating hours. 
+        			<br>
+        			<br>
+        		</p>
+        		<h1>Details</h1>
+        		
+        		<div id="sent">
+        			<p style="display:inline-block; margin-top:5px; margin-bottom:5px;"><img src="images/Email_checkmark_yes-512.png" class="alertimg"></p><p class="alerttxtstyle" style="display:inline-block">Thank you for contacting us, a member of our staff will be in contact very soon!</p>
+        		</div>
+        		
+        		<div id="error">
+        			<p style="display:inline-block; margin-top:5px; margin-bottom:5px;"><img src="images/depositphotos_78309208-stock-illustration-error-flat-blue-color-icon.jpg" class="alertimg"></p><p id="alerttxt" class="alerttxtstyle" style="display:inline-block">Name field required</p>
+        		</div>
+        		
+        		<div id="form">
+        			<form name="contactForm" action="mailto:website@IWantFlowers.com.au" method="post" enctype="text/plain" onsubmit="return validateForm()">
+        		  		<p style="display: inline-block">
+        		  			Name:
+							<input type="text" name="name" id="frmname">
+        		  		</p >
+						<p style="display: inline-block">
+							E-mail:
+        		  			<input type="email" name="email" id="frmemail">
+						
+						</p>
+						<p style="display: inline-block">
+							Phone:
+							<input type="text" name="phone" id="frmphone">
+							</p>
+						<p style="display: inline-block">
+							Subject:
+							<input type="text" name="subject">
+						</p>
+						<p> Details:
+							<textarea name="message" rows="7" cols="60">
+							
+							</textarea>
+						<br>
+						<br>
+						<input type="submit" value="Submit" >
+						</p>
+						
+					</form>
+				</div>
+
+        	</div>
+        </div>
+        <div class="footer">
+        	<div class="container">
+        		<div class="copyright" >
+        			Copyright © 2017 | Created by W. Martinez | Skillage I.T.
+        		</div>
+        	</div>
+        </div>
+        
+    </body>
+</html>
