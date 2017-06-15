@@ -72,6 +72,10 @@ html, body {
   box-shadow: none;
 }
 
+#tool p {
+		padding-bottom:180px;
+}
+
 input[type="text"]:focus {
   border: 0;
   border-bottom: 5px solid #ff7171;
@@ -82,7 +86,7 @@ input[type="text"]:focus {
 
 #imgimport p {
 	text-align:center;
-	padding-bottom:200px;
+	padding-bottom:180px;
 }
 
 .footer {
