@@ -3,18 +3,17 @@
 
 <head>
 	
-  <title>WM Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel='stylesheet' type="text/css" href='style.css'/>
-  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Permanent+Marker|Rock+Salt|Cantarell"
-    rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
-
+	<title>WM Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel='stylesheet' type="text/css" href='style.css'/>
+  	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Permanent+Marker|Rock+Salt|Cantarell" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+	
 </head>
 
 <body>
@@ -23,9 +22,9 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
       </button>
         <a class="navbar-brand">WM.</a>
       </div>
@@ -41,51 +40,53 @@
     </div>
   </nav>
 
+	<div class="container-fluid text-center" id="main">
+    	<div class="container">
+      		<div class="jumbotron text-left" id="bio">
+        		<h1>Will Martinez<small> Web Developer</small></h1>
+        		<img src="http://res.cloudinary.com/dooablvnt/image/upload/v1481810459/20160928_143105_gm1wyx.png" class="img-rounded" alt="me" width="115" height="100" id="me" >
+        		<p>
+        		Freelance web developer / IT analyst, who enjoys creating functional and responsive sites for the web. I'm inspired by clean minimilist designs and urban photography. I'm currently completing a Diploma of Web Development and further study with Codecademy and Code Camp, you can see some of my course work below.  
+        		</p>
+      		</div>
+    	</div>
 
-  <div class="container-fluid text-center" id="main">
-    <div class="container">
-      <div class="jumbotron text-left" id="bio">
+    	<div class="container" id="gallery">
+      		<div class="row">
 
-        <h1>Will Martinez<small> Web Developer</small></h1>
-        <img src="http://res.cloudinary.com/dooablvnt/image/upload/v1481810459/20160928_143105_gm1wyx.png" class="img-rounded" alt="me" width="115" height="100" id="me" >
-        <p>
-        	Freelance web developer / IT analyst, who enjoys creating functional and responsive sites for the web. I'm inspired by clean minimilist designs and urban photography. I'm currently completing a Diploma of Web Development and further study with Codecademy and Code Camp, you can see some of my course work below.  
-        </p>
-      </div>
-    </div>
-
-    <div class="container" id="gallery">
-      <div class="row">
-
-	<div id="badges">
-			<button type="button" class="btn" id="allbtn"><a href="#gallery">#SHOW ALL</a></button>
-  			<button type="button" class="btn" id="htmlbtn"><a href="#gallery">#HTML/CSS</a></button>
-  			<button type="button" class="btn" id="bootstrapbtn"><a href="#gallery">#BOOTSTRAP</a></button>
-  			<button type="button" class="btn" id="jquerybtn"><a href="#gallery">#JQUERY</a></button>
-	</div>
+			<div id="badges">
+				<h3 style="display: inline-block; color:#ffffff; font-size:14px;"><b>Tags:</b></h3>
+				<button type="button" class="btn btn-sm" id="allbtn"><i class="fa fa-tag" aria-hidden="true" style="color:#ffffff;"></i><a href="#"> SHOW ALL</a></button>
+  				<button type="button" class="btn btn-sm" id="htmlbtn"><i class="fa fa-tag" aria-hidden="true" style="color:#ffffff;"></i><a href="#"> HTML/CSS</a></button>
+  				<button type="button" class="btn btn-sm" id="bootstrapbtn"><i class="fa fa-tag" aria-hidden="true" style="color:#ffffff;"></i><a href="#"> BOOTSTRAP</a></button>
+  				<button type="button" class="btn btn-sm" id="jquerybtn"><i class="fa fa-tag" aria-hidden="true" style="color:#ffffff;"></i><a href="#"> JQUERY</a></button>
+  				<button type="button" class="btn btn-sm" id="jquerybtn"><i class="fa fa-tag" aria-hidden="true" style="color:#ffffff;"></i><a href="#"> RESPSONSIVE</a></button>
+			</div>
   
-        <div class="col-md-6">
-        						<a href="Pages/Codecademy_Adoptly/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481808963/Adoptly_eyirfn.png" alt="Adoptly" /></a> 
-        						<a href="Pages/Codecademy_Junction/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810334/Junction_eu2vpu.png" alt="Junction" /></a>
-        						<a href="Pages/Codecademy_Move/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810335/Move_p7dcvq.png" alt="Move" /></a>
-        						<a href="Pages/Codecademy_Junction/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810333/Headlines_jhjmt8.png" alt="Headlines"/></a>
-        						<a href="Pages/Codecademy_Armando/index.html"><img class="img-responsive jquery" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1497419130/Armando_uf36dg.png" alt="Armando" /></a> 
-        </div>
-        <div class="col-md-6">
-        						<a href="Pages/Codecademy_Broadway/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481809858/Broadway_tnw1sl.png" alt="Broadway"/></a>
-        						<a href="Pages/Codecademy_Shutterbugg/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810336/Shutterbug_wrwqgc.png" alt="ShutterBug"/></a>
-        						<a href="Pages/Codecademy_InnovationCloud/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810334/InnovationCloud_mpagqi.png" alt="InnovationCloud"/></a>
-        						<a href="Pages/Codecademy_BestBite/index.html"><img class="img-responsive" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481808963/BestBite_xcpsrk.png" alt="BestBite"/></a>
-        </div>
+			<div class="col-md-6">
+        		<a href="Pages/Codecademy_Adoptly/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481808963/Adoptly_eyirfn.png" alt="Adoptly" /></a> 
+        		<a href="Pages/Codecademy_Junction/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810334/Junction_eu2vpu.png" alt="Junction" /></a>
+        		<a href="Pages/Codecademy_Move/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810335/Move_p7dcvq.png" alt="Move" /></a>
+        		<a href="Pages/Codecademy_Junction/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810333/Headlines_jhjmt8.png" alt="Headlines"/></a>
+        		<a href="Pages/Codecademy_Armando/index.html"><img class="img-responsive jquery" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1497419130/Armando_uf36dg.png" alt="Armando" /></a> 
+ 			</div>
+    
+    		<div class="col-md-6">
+        		<a href="Pages/Codecademy_Broadway/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481809858/Broadway_tnw1sl.png" alt="Broadway"/></a>
+        		<a href="Pages/Codecademy_Shutterbugg/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810336/Shutterbug_wrwqgc.png" alt="ShutterBug"/></a>
+        		<a href="Pages/Codecademy_InnovationCloud/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481810334/InnovationCloud_mpagqi.png" alt="InnovationCloud"/></a>
+        		<a href="Pages/Codecademy_BestBite/index.html"><img class="img-responsive html" src="http://res.cloudinary.com/dooablvnt/image/upload/c_fill,h_351,w_600/v1481808963/BestBite_xcpsrk.png" alt="BestBite"/></a>
+  			</div>
+			</div>
+		
+    	    <div class="row">
+        		<div class="col-md-12" id="backtop">
+          			<a href="#bio"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+        		</div>
+      		</div>
+    	</div>
 
-      </div>
-      <div class="row">
-        <div class="col-md-12" id="backtop">
-          <a href="#bio"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
+	</div>
 
 
   <footer class="container-fluid " id="contact">
@@ -93,14 +94,16 @@
       <div class="col-md-3">
 
       </div>
-      <div class="col-md-3 text-left">
-        <h3><b>Profiles</b></h3><br>
-        <a href="https://au.linkedin.com/in/will-martinez-4a131264" id="linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true" >  </i></a>
-        <a href="https://www.freecodecamp.com/willair"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true">  </i></a>
-        <a href="https://codepen.io/Willair/"><i class="fa fa-codepen fa-2x" aria-hidden="true">  </i></a>
-        <a href="https://www.codecademy.com/Willair"><i class="fa fa-code fa-2x" aria-hidden="true">  </i></a>
-        <a href="https://www.sololearn.com/Profile/599514"><i class="fa fa-graduation-cap fa-2x" aria-hidden="true">  </i></a>
+      
+      <div class="col-md-3 text-left" id="profiles">
+      	<h3><b>Profiles</b></h3><br>
+        <a href="https://au.linkedin.com/in/will-martinez-4a131264"><i class="fa fa-linkedin fa-2x"> </i></a><span>&emsp;LinkedIn</span><br>
+        <a href="https://www.freecodecamp.com/willair"><i class="fa fa-free-code-camp fa-2x"> </i></a><span> Free Code Camp </span><br>
+        <a href="https://codepen.io/Willair/"><i class="fa fa-codepen fa-2x"> </i></a><span>&nbsp;&nbsp;&nbsp;CodePen</span><br>
+        <a href="https://www.sololearn.com/Profile/599514"><i class="fa fa-graduation-cap fa-2x"> </i></a><span> SoloLearn</span><br>
+        <a href="https://www.codecademy.com/Willair"><i class="fa fa-code fa-2x"> </i></a><span> &nbsp;CodeCademy</span><br>
       </div>
+      
       <div class="col-md-3 text-left">
         <h3><b>Contact</b></h3><br>
         <form action="mailto:someone@example.com" method="post" enctype="text/plain">
@@ -126,7 +129,7 @@
     </div>
     <div class="row">
       <div class="col-md-12 text-left" id="end">
-        <h6>Created by W. Martinez 2017</h6>
+        <h6>	Created by W. Martinez 2017 &copy;</h6>
       </div>
     </div>
   </footer>
