@@ -2,6 +2,7 @@
 
 .navbar {
     padding-top:25px;
+    padding-bottom:5px;
 	background-color:#99ccff;
 	height:auto;
 
@@ -9,7 +10,7 @@
 }
 
 .navbar-nav>li>a {
-
+	margin-top:35px;
 	font-weight:bold;
 	font-size:18px;
 	color:#fff !important;
@@ -26,7 +27,7 @@
 }
 
 .callnow{
-
+	padding-bottom:20px !important;
 	font-size: 18px;
 	text-decoration:none !important;
 	color:#fff !important;
