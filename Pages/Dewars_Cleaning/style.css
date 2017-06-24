@@ -1,0 +1,155 @@
+
+
+.navbar {
+    padding-top:25px;
+	background-color:#99ccff;
+	height:110px;
+
+
+}
+
+.navbar-nav>li>a {
+
+	font-weight:bold;
+	font-size:18px;
+	color:#fff !important;
+	font-family:'Quicksand', sans-serif !important;
+}
+
+
+.navbar-brand {
+
+	font-size:40px;
+	color:#fff !important;
+	font-family: 'Yanone Kaffeesatz', sans-serif !important;
+	padding-bottom:0px;
+}
+
+.callnow{
+
+	font-size: 18px;
+	text-decoration:none !important;
+	color:#fff !important;
+
+}
+
+
+#myCarousel {
+	margin-top:5px;
+	margin-bottom:15px;
+
+}
+
+.services h4 {
+	margin-top:20px !important;
+}
+
+.carousel-control {
+	opacity:0.1;
+	color:#000 !important;
+}
+
+.item img {
+	margin:auto;
+}
+
+.pindent {
+	padding-left:25px;
+	margin-bottom:0px;
+	padding-right:25px;
+}
+
+.services {
+	margin-top:20px;
+	background-color:#e6f2ff;
+	margin-bottom:20px;
+	padding-bottom:70px;
+	font-family:'Quicksand', sans-serif !important;
+}
+
+.services p {
+	    padding-right:25px;
+    padding-left:25px;
+}
+
+#bgimg {
+	margin-top:120px;
+	margin-bottom:10px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#about {
+	font-family: 'Quicksand', sans-serif !important;
+	padding:15px 25px 10px;
+	color:#262626;
+	margin-bottom:10px;
+}
+
+
+
+#about p {
+	margin-bottom:20px;
+	font-weight:lighter;
+	font-size:14px;
+}
+
+#contactbtn {
+	width:200px;
+	background-color:#99ccff;
+	color:#fff;
+}
+
+#contactbtn:hover {
+	background-color:#99ccff;
+	color:#fff;
+}
+
+#contactbtn a {
+	text-decoration: none;
+
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    background-color: #99ccff !important;
+    color:black !important;
+    
+}
+
+.contactus {
+	font-family: 'Quicksand', sans-serif !important;
+	margin-top:20px;	
+	margin-bottom:70px;
+	padding-bottom:50px;
+}
+
+.footer {
+	background-color:#99ccff;
+	font-family: 'Quicksand', sans-serif !important;
+   	left:0px;
+   	bottom:0px;
+   	width:100%;
+   	height:auto;
+   	padding-bottom:10px;
+}
+
+.footer a {
+	display:block;
+	color:#fff;
+}
+
+.footerlinks {
+	padding-left:150px !important;
+	padding-top:25px;
+	margin-bottom:0px;
+}
+
+#disclaimer {
+	padding-top:60px;
+}
+
+#headerimg {
+	width:100% !important;
+	opacity: 0.8;
+	margin-top:70px;
+}
+
