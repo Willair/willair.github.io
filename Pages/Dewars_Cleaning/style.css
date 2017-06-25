@@ -18,6 +18,8 @@
 }
 
 
+
+
 .navbar-brand {
 
 	font-size:40px;
@@ -140,7 +142,7 @@
 }
 
 .footerlinks {
-	padding-left:150px !important;
+	padding-left:150px;
 	padding-top:25px;
 	margin-bottom:0px;
 }
