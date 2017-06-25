@@ -23,7 +23,10 @@
 	font-family:'Quicksand', sans-serif !important;
 }
 
-
+.navbar-toggle {
+	padding:15px;
+	margin-bottom: 0px;
+}
 .navbar-brand {
 	
 	padding:23px 15px 0px;
