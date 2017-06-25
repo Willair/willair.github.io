@@ -2,38 +2,45 @@
 
 .navbar {
     padding-top:25px;
-    padding-bottom:5px;
+	padding-bottom:10px;
 	background-color:#99ccff;
 	height:auto;
-
-
 }
 
 .navbar-nav>li>a {
-
+	padding:30px 15px 0px;
 	font-weight:bold;
 	font-size:18px;
 	color:#fff !important;
 	font-family:'Quicksand', sans-serif !important;
 }
 
-
+.navbar-nav>li>a:hover {
+	padding:30px 15px 0px;
+	font-weight:bold;
+	font-size:20px;
+	color:#b3ffb3 !important;
+	font-family:'Quicksand', sans-serif !important;
+}
 
 
 .navbar-brand {
-
-	font-size:40px;
-	color:#fff !important;
+	
+	padding:23px 15px 0px;
+	font-size:36px;
+	color:#b3ffb3 !important;
 	font-family: 'Yanone Kaffeesatz', sans-serif !important;
-	padding-bottom:0px;
 }
 
-.callnow{
-
-	padding-bottom:20px !important;
-	font-size: 18px;
+.callnow {
+	padding-bottom:10px;
+	font-size: 14px;
 	text-decoration:none !important;
 	color:#fff !important;
+
+}
+
+#sitenavbar {
 
 }
 

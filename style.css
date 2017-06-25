@@ -17,6 +17,15 @@ body {
   	color: red !important;
 }
 
+.navbar-nav a {
+	color:#fff !important;
+	font-size:18px;
+}
+
+.navbar-nav a:hover {
+	color:red !important;
+}
+
 .navbar {
 	margin-bottom: 0;
     border-radius: 0;
