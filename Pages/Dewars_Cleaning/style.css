@@ -13,12 +13,13 @@
 .navbar {
     padding-top:25px;
 	padding-bottom:10px;
-	background-color:#99ccff;
+	background-color:#4d94ff;
 	height:auto;
 }
 
 .navbar-nav>li>a {
-	padding:30px 15px 0px;
+	margin-top:30px;
+	padding:10px 15px 0px;
 	font-weight:bold;
 	font-size:18px;
 	color:#fff !important;
@@ -26,7 +27,9 @@
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color:#b3ffb3 !important;
+ border:1px solid #fff;
+ border-width:0px 5px 0px 0px;
+
     
 }
 
@@ -37,14 +40,14 @@
 .navbar-brand {
 	
 	padding:23px 15px 0px;
-	font-size:36px;
+	font-size:40px;
 	color:#b3ffb3 !important;
 	font-family: 'Yanone Kaffeesatz', sans-serif !important;
 }
 
 .callnow {
 	padding-bottom:10px;
-	font-size: 14px;
+	font-size: 16px;
 	text-decoration:none !important;
 	color:#fff !important;
 
@@ -144,7 +147,7 @@
 }
 
 .footer {
-	background-color:#99ccff;
+	background-color:#4d94ff;
 	font-family: 'Quicksand', sans-serif !important;
    	left:0px;
    	bottom:0px;
