@@ -1,3 +1,8 @@
+@media screen and (min-width: 600px) {
+	 {
+		
+    }
+}
 
 
 .navbar {
@@ -15,12 +20,9 @@
 	font-family:'Quicksand', sans-serif !important;
 }
 
-.navbar-nav>li>a:hover {
-	padding:30px 15px 0px;
-	font-weight:bold;
-	font-size:20px;
-	color:#b3ffb3 !important;
-	font-family:'Quicksand', sans-serif !important;
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color:#b3ffb3 !important;
+    
 }
 
 .navbar-toggle {
@@ -123,11 +125,7 @@
 
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    background-color: #99ccff !important;
-    color:black !important;
-    
-}
+
 
 .contactus {
 	font-family: 'Quicksand', sans-serif !important;
@@ -152,7 +150,7 @@
 }
 
 .footerlinks {
-	padding-left:150px;
+	padding-left:130px;
 	padding-top:25px;
 	margin-bottom:0px;
 }
