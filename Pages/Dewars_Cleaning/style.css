@@ -1,6 +1,10 @@
-@media screen and (min-width: 600px) {
-	 {
+@media screen and (min-width: 768px) {
+	 #desktopview {
+		display:block !important;
 		
+    }
+    #mobileview {
+    	display:none;
     }
 }
 
@@ -54,6 +58,10 @@
 	margin-top:5px;
 	margin-bottom:15px;
 
+}
+
+#desktopview {
+	display:none;	
 }
 
 .services h4 {
