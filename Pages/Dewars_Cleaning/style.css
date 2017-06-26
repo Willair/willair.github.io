@@ -3,11 +3,12 @@
 		display:block !important;
 		
     }
-    #mobileview {
+    
+        #mobileview {
     	display:none;
     }
-}
 
+}
 
 .navbar {
     padding-top:25px;
