@@ -1,9 +1,7 @@
 @media screen and (min-width: 768px) {
 	 #desktopview {
 		display:block !important;
-		
     }
-    
         #mobileview {
     	display:none;
     }
@@ -15,58 +13,84 @@
 	background-color:#fff !important;
 }
 
+.dropdown-menu {
+	padding:10px;
+	background-color:#4D94FF;
+
+}
+
+.dropdown-menu>li>a {
+	font-family:'Quicksand', sans-serif;
+	padding:10px;
+	font-size:16px;
+	color:#FFFFFF;
+}
+
 .navbar {
-    padding-top:25px;
+    padding-top:15px;
 	padding-bottom:10px;
 	background-color:#4d94ff;
 	height:auto;
 }
 
+
 .navbar-nav>li>a {
-	margin-top:20px;
-	padding:10px 15px 0px;
+
+	padding:15px 15px 0px;
 	font-weight:bold;
 	font-size:18px;
 	color:#fff !important;
 	font-family:'Quicksand', sans-serif !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-color:#000 !important;
-
+.navbar-nav li a:hover, .navbar-nav li a:active {
+color:#54549F !important;
+background-color:#F5F5F5;
     
 }
 
-.navbar-toggle {
 
+.logo {
+	width:50px;
+	height:50px;
+
+}
+
+#logotxt {
+	line-height:85px;
+	font-size:38px;
+	color:#54549F !important;
+	font-family: 'Yanone Kaffeesatz', sans-serif !important;
+}
+
+/*adjust collapse and open nav component position here*/
+.navbar-toggle, .collapse {
+	margin-top:15px;
 	margin-bottom: 0px;
 }
+/*adjust collapse and open nav component position here*/
 
 .navbar-toggle:hover, navbar-toggle:active {
 
-	background-color:white !important;
+	background-color:#54549F !important;
 }
 
 .navbar-brand {
 	
-	padding:23px 15px 0px;
+
 	font-size:40px;
-	color:#b3ffb3 !important;
+	color:#54549F !important;
 	font-family: 'Yanone Kaffeesatz', sans-serif !important;
 }
 
 .callnow {
 	padding-bottom:10px;
-	font-size: 16px;
+	padding-top:0px;
+	font-size: 18px;
 	text-decoration:none !important;
 	color:#fff !important;
 
 }
-
-#sitenavbar {
-
-}
-
 
 #myCarousel {
 	margin-top:5px;
@@ -76,6 +100,14 @@ color:#000 !important;
 
 #desktopview {
 	display:none;	
+}
+
+#desktopview a {
+	text-decoration:none;
+}
+
+#desktopview a:hover {
+	color:#54549F;
 }
 
 .services h4 {
@@ -123,8 +155,6 @@ color:#000 !important;
 	margin-bottom:10px;
 }
 
-
-
 #about p {
 	margin-bottom:20px;
 	font-weight:lighter;
@@ -147,12 +177,10 @@ color:#000 !important;
 
 }
 
-
-
 .contactus {
 	font-family: 'Quicksand', sans-serif !important;
 	margin-top:20px;	
-	margin-bottom:70px;
+	margin-bottom:20px;
 	padding-bottom:50px;
 }
 
@@ -172,13 +200,13 @@ color:#000 !important;
 }
 
 .footerlinks {
-	padding-left:130px;
+	padding-left:170px;
 	padding-top:25px;
 	margin-bottom:0px;
 }
 
 #disclaimer {
-	padding-top:60px;
+	padding-top:80px;
 }
 
 #headerimg {
