@@ -22,7 +22,7 @@
 .dropdown-menu>li>a {
 	font-family:'Quicksand', sans-serif;
 	padding:10px;
-	font-size:16px;
+	font-size:14px;
 	color:#FFFFFF;
 }
 
@@ -38,7 +38,7 @@
 
 	padding:15px 15px 0px;
 	font-weight:bold;
-	font-size:18px;
+	font-size:16px;
 	color:#fff !important;
 	font-family:'Quicksand', sans-serif !important;
 }
@@ -58,7 +58,7 @@ background-color:#F5F5F5;
 
 #logotxt {
 	line-height:85px;
-	font-size:38px;
+	font-size:36px;
 	color:#54549F !important;
 	font-family: 'Yanone Kaffeesatz', sans-serif !important;
 }
@@ -78,18 +78,9 @@ background-color:#F5F5F5;
 .navbar-brand {
 	
 
-	font-size:40px;
+	font-size:38px;
 	color:#54549F !important;
 	font-family: 'Yanone Kaffeesatz', sans-serif !important;
-}
-
-.callnow {
-	padding-bottom:10px;
-	padding-top:0px;
-	font-size: 18px;
-	text-decoration:none !important;
-	color:#fff !important;
-
 }
 
 #myCarousel {
@@ -155,10 +146,10 @@ background-color:#F5F5F5;
 	margin-bottom:10px;
 }
 
-#about p {
+#about p, #services p, #about ul, #contact p {
 	margin-bottom:20px;
 	font-weight:lighter;
-	font-size:14px;
+	font-size:12px;
 }
 
 #contactbtn {
@@ -203,6 +194,7 @@ background-color:#F5F5F5;
 	padding-left:170px;
 	padding-top:25px;
 	margin-bottom:0px;
+	font-size:10px;
 }
 
 #disclaimer {
