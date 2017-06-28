@@ -23,7 +23,7 @@
 	font-family:'Quicksand', sans-serif;
 	padding:10px;
 	font-size:14px;
-	color:#FFFFFF;
+	color:#FFFFFF !important;
 }
 
 .navbar {
@@ -45,7 +45,7 @@
 
 .navbar-nav li a:hover, .navbar-nav li a:active {
 color:#54549F !important;
-background-color:#F5F5F5;
+
     
 }
 
@@ -57,9 +57,9 @@ background-color:#F5F5F5;
 }
 
 #logotxt {
-	line-height:85px;
-	font-size:36px;
-	color:#54549F !important;
+    line-height:80px;
+	font-size:34px;
+	color:#FFFFFF !important;
 	font-family: 'Yanone Kaffeesatz', sans-serif !important;
 }
 
@@ -85,7 +85,7 @@ background-color:#F5F5F5;
 
 #myCarousel {
 	margin-top:0px;
-	margin-bottom:10px;
+	margin-bottom:30px;
 
 }
 
@@ -152,19 +152,19 @@ background-color:#F5F5F5;
 	font-size:12px;
 }
 
-#contactbtn {
+.contactbtn {
 	width:200px;
 	background-color:#4d94ff;
 	color:#fff;
 	font-size:16px;
 }
 
-#contactbtn:hover {
+.contactbtn:hover {
 	background-color:#99ccff;
 	color:#fff;
 }
 
-#contactbtn a {
+.contactbtn a {
 	text-decoration: none;
 
 }
@@ -195,10 +195,11 @@ background-color:#F5F5F5;
 	padding-left:170px;
 	padding-top:25px;
 	margin-bottom:0px;
-	font-size:10px;
+	font-size:12px;
 }
 
 #disclaimer {
+	font-size:10px;
 	padding-top:80px;
 }
 
@@ -208,3 +209,70 @@ background-color:#F5F5F5;
 	margin-top:70px;
 }
 
+/*==========Services page=============*/
+
+.fluidcolor {
+	font-size:12px;
+	font-family: 'Quicksand', sans-serif;
+	padding:40px 25px;
+	background-color:#E6F2FF;
+}
+
+.nonfluid {
+	font-size:12px;
+	font-family: 'Quicksand', sans-serif;	
+	padding:40px 25px;
+}
+
+.servicedivider {
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	background-color:#54549F;
+	color:#FFFFFF;
+	padding:50px;
+	
+}
+
+/*=======testing area=========*/
+
+/**
+ * Image slider with pure CSS
+ * Original version in http://demosthenes.info/blog/css
+ */
+
+.image-slider {
+	margin:10px;
+	position:relative;
+	display: inline-block;
+	line-height: 0;
+}
+
+/* Could use a pseudo-element, but they’re currently
+   super buggy. See: http://dabblet.com/gist/ab432c3f6a8f672cd077 */
+.image-slider > div {
+	position: absolute;
+	top: 0; bottom: 0; left: 0;
+	width: 25px;
+	max-width: 100%;
+	overflow: hidden;
+	resize: horizontal;
+}
+
+/* Cross-browser resizer styling */
+.image-slider > div:before {
+	content: '';
+	position: absolute;
+	right: 0; bottom: 0;
+	width: 20px; height: 20px; /*resize draggable icon here */
+	padding: 5px;
+	background: linear-gradient(-45deg, white 50%, transparent 0);
+	background-clip: content-box;
+	cursor: ew-resize;
+	-webkit-filter: drop-shadow(0 0 2px black);
+	filter: drop-shadow(0 0 2px black);
+}
+
+.image-slider img {
+	user-select: none;
+	max-width: 444px;
+}
