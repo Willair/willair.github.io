@@ -172,8 +172,8 @@ color:#54549F !important;
 .contactus {
 	font-family: 'Quicksand', sans-serif !important;
 	margin-top:20px;	
-	margin-bottom:20px;
-	padding-bottom:50px;
+	margin-bottom:10px;
+	padding-bottom:30px;
 }
 
 .footer {
@@ -241,7 +241,13 @@ color:#54549F !important;
 	
 }
 
-/*=======testing area=========*/
+#windowsvc {
+	margin-bottom:30px;
+}
+
+
+
+/*=======img slider=========*/
 
 /**
  * Image slider with pure CSS
