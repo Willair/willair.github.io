@@ -154,14 +154,14 @@ color:#54549F !important;
 
 .contactbtn {
 	width:200px;
-	background-color:#4d94ff;
+	background-color:#47d147;
 	color:#fff;
 	font-size:16px;
+
 }
 
 .contactbtn:hover {
-	background-color:#99ccff;
-	color:#fff;
+	background-color:#47d147;
 }
 
 .contactbtn a {
@@ -192,7 +192,7 @@ color:#54549F !important;
 }
 
 .footerlinks {
-	padding-left:170px;
+	padding-left:140px;
 	padding-top:25px;
 	margin-bottom:0px;
 	font-size:12px;
@@ -218,10 +218,18 @@ color:#54549F !important;
 	background-color:#E6F2FF;
 }
 
+.fluidcolor img {
+	margin-bottom:15px;
+}
+
 .nonfluid {
 	font-size:12px;
 	font-family: 'Quicksand', sans-serif;	
 	padding:40px 25px;
+}
+
+.nonfluid img {
+	margin-top:15px;
 }
 
 .servicedivider {
@@ -241,7 +249,7 @@ color:#54549F !important;
  */
 
 .image-slider {
-	margin:10px;
+	margin:0px;
 	position:relative;
 	display: inline-block;
 	line-height: 0;
@@ -263,9 +271,9 @@ color:#54549F !important;
 	content: '';
 	position: absolute;
 	right: 0; bottom: 0;
-	width: 20px; height: 20px; /*resize draggable icon here */
-	padding: 5px;
-	background: linear-gradient(-45deg, white 50%, transparent 0);
+	width: 15px; height: 15px; /*resize draggable icon here */
+	padding: 0px;
+	background: linear-gradient(-45deg, #4D94FF 50%, transparent 0);
 	background-clip: content-box;
 	cursor: ew-resize;
 	-webkit-filter: drop-shadow(0 0 2px black);
@@ -274,5 +282,5 @@ color:#54549F !important;
 
 .image-slider img {
 	user-select: none;
-	max-width: 444px;
+	max-width: 100%; /*this is causing the corner image in the slider change to fixed size to fix but will break mobile view borders*/
 }
