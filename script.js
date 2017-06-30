@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 	$("#badges a").css("color", "white");	
 	$("#htmlbtn").css("background-color","#007acc");
