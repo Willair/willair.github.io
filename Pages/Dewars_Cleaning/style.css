@@ -52,6 +52,7 @@
 
 a.navbar-brand {
 	padding-top:0px;
+	padding-right: 5px;
 }
 
 .logo {
@@ -60,9 +61,13 @@ a.navbar-brand {
 }
 
 #logotxt {
-	font-size:32px;
+	font-size:24px;
 	color:#FFFFFF !important;
-	font-family: 'Yanone Kaffeesatz', sans-serif !important;
+	font-family:  'Anton', sans-serif;
+}
+
+.logosubtxt {
+
 }
 
 /*adjust collapse and open nav component position here*/
@@ -75,10 +80,6 @@ a.navbar-brand {
 	background-color:#54549F !important;
 }
 
-.navbar-brand {
-	font-size:38px;
-	color:#54549F !important;
-}
 
 #myCarousel {
 	margin-top:0px;
@@ -218,6 +219,13 @@ div#contact {
 	width:100% !important;
 	opacity: 0.8;
 	margin-top:70px;
+}
+
+.img-thumbnail {
+	height: 350px !important;
+	float: right;
+	margin-right:20px;
+	
 }
 
 /*==========Services page=============*/
