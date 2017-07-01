@@ -14,7 +14,7 @@
 
 .dropdown-menu {
 	padding:10px;
-	background-color:#4D94FF;
+	background-color:#54549F;
 
 }
 
@@ -26,13 +26,14 @@
 }
 
 .dropdown-menu>li>a:hover {
-	background-color:#54549F !important;
+	background-color:#fff !important;
+	color:#000 !important;
 }
 
 .navbar {
     padding-top:15px;
 	padding-bottom:10px;
-	background-color:#54549F;
+	background-color:#5C5CAA;
 	height:auto;
 }
 
@@ -147,7 +148,11 @@ a.navbar-brand {
 #about p, #services p, #about ul, #contact p {
 	margin-bottom:20px;
 	font-weight:lighter;
-	font-size:12px;
+	font-size:14px;
+}
+
+.well {
+	background-color:#f2f2f2;
 }
 
 .contactbtn {
@@ -178,7 +183,7 @@ div#contact {
 }
 
 .footer {
-	background-color:#54549F;
+	background-color:#5C5CAA;
 	font-family: 'Quicksand', sans-serif !important;
    	left:0px;
    	bottom:0px;
@@ -199,7 +204,12 @@ div#contact {
 	font-size:12px;
 }
 
+.footerlinks h3 {
+	color:#FFFFFF;
+}
+
 #disclaimer {
+	color: #cccccc;
 	font-size:10px;
 	padding-top:80px;
 }
@@ -213,7 +223,7 @@ div#contact {
 /*==========Services page=============*/
 
 .fluidcolor {
-	font-size:12px;
+	font-size:14px;
 	font-family: 'Quicksand', sans-serif;
 	padding:40px 25px;
 	background-color:#E6F2FF;
@@ -221,7 +231,7 @@ div#contact {
 
 
 .nonfluid {
-	font-size:12px;
+	font-size:14px;
 	font-family: 'Quicksand', sans-serif;	
 	padding:40px 25px;
 }
@@ -238,14 +248,6 @@ div#contact {
 	margin-bottom:15px;
 }
 
-.nonfluid p {
-	 /*align text for non colored container*/
-}
-
-.fluidcolor h4, .fluidcolor p {
-
-}
-
 .fixbadalignontxt {
 	padding-left:0px;
 	padding-right:0px;
@@ -254,12 +256,10 @@ div#contact {
 .servicedivider {
 	text-align:center;
 	font-family: 'Quicksand', sans-serif;
-	background-color:#54549F;
+	background-color:#5C5CAA;
 	color:#FFFFFF;
-	padding:50px;
-	
+	padding:50px;	
 }
-
 
 .svctxtspacing {
 	margin-bottom:25px;
@@ -274,8 +274,10 @@ div#contact {
  	font-family: 'Quicksand', sans-serif;
 }
 
-#windowsvc
-
+.getquote {
+	font-weight:bold;
+	font-size:16px;
+}
 
 /*==============img slider (services page)==========*/
 #first-slider .main-container {
