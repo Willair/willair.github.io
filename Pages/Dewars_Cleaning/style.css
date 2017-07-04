@@ -176,17 +176,7 @@ a.navbar-brand {
 	font-family: 'Quicksand', sans-serif !important;
 	margin-top:20px;	
 	margin-bottom:0px;
-	padding-bottom:20px;
-}
-
-.googmap {
-	margin-bottom:20px;
-	padding-left:40px;
-
-}
-
-.contactusform {
-	padding-left:30px;
+	padding-bottom:40px;
 }
 
 div#contact {
@@ -231,6 +221,20 @@ div#contact {
 	margin-top:70px;
 }
 
+/*==========google maps styling========*/
+.googmap{
+    overflow:hidden;
+    position:relative;
+    height:400px;
+}
+.googmap iframe{
+	padding-right:15px;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 
 /*==========Services page=============*/
@@ -290,6 +294,35 @@ div#contact {
 .getquote {
 	font-weight:bold;
 	font-size:16px;
+}
+
+/*==============pop over styling start================*/
+ /* Popover */
+.popover {
+    border: 2px solid #000;
+}
+
+/* Popover Header */
+.popover-title {
+    background-color: #5C5CAA; 
+    color: #FFFFFF; 
+    font-size: 22px;
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Popover Body */
+.popover-content {
+ 	font-family: 'Quicksand', sans-serif;	
+ 	font-size:16px;
+    background-color: #E6F2FF;
+    color: #000;
+    padding: 15px;
+}
+
+/* Popover Arrow */
+.arrow {
+    border-right-color: #000 !important;
 }
 
 /*==============img slider (services page)==========*/
