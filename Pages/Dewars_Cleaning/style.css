@@ -181,12 +181,12 @@ a.navbar-brand {
 
 .googmap {
 	margin-bottom:20px;
-	padding-right:0px;
+	padding-left:40px;
 	border-right:1px solid #CCCCCC;
 }
 
 .contactusform {
-	padding-left:45px;
+	padding-left:20px;
 }
 
 div#contact {
