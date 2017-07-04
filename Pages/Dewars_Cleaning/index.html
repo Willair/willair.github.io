@@ -2,7 +2,7 @@
 <html>
     <head>
     	<meta charset="utf-8">
-	<meta name="viewport" content="width=450">
+	<meta name="viewport" content="width=500">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Bootstrap -->
         <link rel="stylesheet" type="text/css" href="style.css"> <!--Local CSS (change if style.css is not in root!)-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font Awesome -->
@@ -184,8 +184,14 @@ Yours faithfully,
 						<b>Managing Director</b>
   					</p>
   					<p style="text-align: center; margin-top:30px; margin-bottom:20px;">
-  						<a href="#contact" class="btn btn-default btn-lg contactbtn" >Contact</a> 
+  						  					  					<!--button testing here-->
+
+
+<div class="sim-button button13"><span>Contact Us</span></div>
+  					<!--button testing here-->
   					</p>
+
+
 			</div>
 
 		</div>
@@ -288,19 +294,37 @@ Yours faithfully,
   	<div class="col-sm-12 text-center " >
   		<p>Contact us and one of our friendly staff will get in contact with you as soon as possible.</p>
   		<br>
+
   	</div>
   </div>
   
   <div class="row">
-    <div class="col-sm-5">
-      <br>
+    <div class="col-sm-6 text-center googmap">
+
+      
+      <iframe
+  width="490"
+  height="300"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCOGzkSKoKBVQvfOUrq3vQTgmNDdTnZcSo &q=Brisbane+QLD" allowfullscreen>
+</iframe>
+
+	</div>
+	<div class="col-sm-6 ">
+  		      <br>
       <p><span class="glyphicon glyphicon-map-marker"></span> Brisbane, QLD</p>
       <p><span class="glyphicon glyphicon-phone"></span> 0439 719 208	</p>
       <p><span class="glyphicon glyphicon-envelope"></span> admin@dewarsservices.com.au</p> 
+
+	</div>
     </div>
-    <div class="col-sm-7">
+
+     <div class="row contactform"> 
+    <div class="col-sm-12">
       <div class="row">
+      	           <h3 style="padding-left:20px;">Send us a message</h3>
         <div class="col-sm-6 form-group">
+
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
         <div class="col-sm-6 form-group">
