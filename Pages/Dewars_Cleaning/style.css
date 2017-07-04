@@ -146,7 +146,7 @@ a.navbar-brand {
 	margin-bottom:0px;
 }
 
-#about p, #services p, #about ul, #contact p {
+#about p, #services p, #about ul {
 	margin-bottom:20px;
 	font-weight:lighter;
 	font-size:14px;
@@ -179,9 +179,10 @@ a.navbar-brand {
 	padding-bottom:40px;
 }
 
-div#contact {
-
+.location {
+	padding:5px 25px;
 }
+
 
 .footer {
 	background-color:#5C5CAA;
@@ -512,8 +513,8 @@ div#contact {
 	position: relative;
 	background-color:#5C5CAA;
 }
-.button13 a{
-	color: rgba(51,51,51,1);
+a.button13 {
+	color: #fff;
 	text-decoration: none;
 	display: block;
 }
