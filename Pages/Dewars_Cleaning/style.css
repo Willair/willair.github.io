@@ -175,14 +175,14 @@ a.navbar-brand {
 .contactus {
 	font-family: 'Quicksand', sans-serif !important;
 	margin-top:20px;	
-	margin-bottom:10px;
-	padding-bottom:30px;
+	margin-bottom:0px;
+	padding-bottom:20px;
 }
 
 .googmap {
 	margin-bottom:20px;
 	padding-left:40px;
-	border-right:1px solid #CCCCCC;
+
 }
 
 .contactusform {
